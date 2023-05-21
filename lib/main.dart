@@ -57,11 +57,11 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 SizedBox(
-                  height: 100,
+                  height: 80,
                 ),
                 Image.asset(
                   "assets/pastel.png",
-                  height: 120,
+                  height: 100,
                 ),
                 Text(
                   "Hi!",
@@ -73,19 +73,19 @@ class MyApp extends StatelessWidget {
                     Text(
                       "I'm Content bot  ",
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 17,
                         color: Colors.white,
                       ),
                     ),
                     Image.asset(
                       "assets/image.jpg",
-                      height: 13,
+                      height: 8,
                     )
                   ],
                 ),
                 Text(
                   "What category do you choose?",
-                  style: TextStyle(color: Colors.white, fontSize: 15),
+                  style: TextStyle(color: Colors.white, fontSize: 14),
                 ),
                 Container(
                   height: 10,
@@ -138,19 +138,19 @@ class MyApp extends StatelessWidget {
                       color: Color.fromARGB(122, 206, 203, 203)),
                 ),
                 Container(
-                  height: 100,
+                  height: 90,
                   width: 60,
                   decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Color.fromARGB(255, 119, 157, 239)),
                   child: Image.asset(
                     "assets/n.jpg",
-                    cacheHeight: 40,
-                    cacheWidth: 40,
+                    cacheHeight: 35,
+                    cacheWidth: 35,
                   ),
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 15,
                 )
               ],
             ),
